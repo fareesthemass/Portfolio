@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal; 
+}
+
+.container{
+    padding: 50px;
+}
+
+.section--one{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.section--one__title{
+    font-size: 50px;
+}
+.section--one__role{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section--one__contact{
+    display: inline-block;
+    background-color: orangered;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.section--two, .section--three, .section--four, .section--five{
+    margin-top: 30px;
+}
+
+.section--one__desc,.section--two__desc,.section--three__desc,.section--four__desc,.section--five__desc{
+    margin-top: 10px;
+}
+
+.section--three li , .section--four li{
+    list-style: none;
+}
+
+.section--five{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.section--five a{
+    color: skyblue;
+}
+
+.section--three{
+    background-color: #6462fd;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.section--four{
+    background-color: #fe7517;
+    color: black;
+    display: inline-block;
+    border-radius: 10px;
+    height: 200px;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.form{
+    margin-top: 10px;
+}
+
+.form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+    margin-top: 10px;
+}
+.form__textarea{
+    padding: 10px;
+    border: solid black 1px;
+    margin-top: 10px;
+}
+.form__btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:white ;
+    background-color: orangered;
+    border: none;
+
+}
